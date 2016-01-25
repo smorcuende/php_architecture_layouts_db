@@ -1,0 +1,8 @@
+RewriteEngine On 
+ErrorDocument 404: "La pagina que ha solicitado no existe."
+ErrorDocument 403: "No tiene permiso para acceder a esta pagina."
+
+#php_value error_reporting 2
+#php_flag display_errors On
+
+DirectoryIndex index.php
